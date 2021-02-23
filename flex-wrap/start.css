@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  width: 600px;
+  /* justify-content: end; */
+  justify-content: flex-end;
+  /* justify-content: space-evenly; */
+  /* justify-content: space-between; */
+  /* justify-content Based main axis, for cross axis we have to use align-item */
+  /* start and end wont support chrome */
+}
