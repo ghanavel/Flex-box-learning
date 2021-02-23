@@ -1,7 +1,8 @@
 .container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: wrap; /* shorthand property for direction and wrap  not metnioned assume deafult */
+
+  /* flex-wrap: wrap; */
   /* flex-direction: row-reverse; */
   /* flex-direction: column; */
 }
